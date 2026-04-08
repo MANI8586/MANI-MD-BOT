@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: Denavi-MD 
+    name: MANI X
     env: node
     plan: free
-    repo: https://github.com/denavigator/Denavi-MD
+    repo: https://github.com/MANI8586/MANI-MD-BOT
     branch: main
     buildCommand: npm install
     startCommand: npm start
