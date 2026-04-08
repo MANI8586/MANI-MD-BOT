@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['256708360344']
+  const ownerNumber = ['923149464387']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -120,12 +120,12 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there Denavi-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet E3_HACKER_MD WhatsApp Bot.\n\n *Thanks for using E3_HACKER_MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306 \n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/waqa827/E3_HACKER_MD\n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ E3_HACKER_MD Official 🫰 \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/p4yxcn.png` }, caption: up })
+  let up = `*Hello there MANI C MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet MANI X MD WhatsApp Bot.\n\n *Thanks for using MANI X MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vb7UpaQ6WaKudzxxWs04 \n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/MANI8586/MANI-MD-BOT \n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ MANI X Official 🫰 \ud83d\udda4`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/y67z0s.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
-
+	  
   //==============================
 
   conn.ev.on('messages.update', async updates => {
@@ -208,8 +208,8 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('256708260344', '256708360344', '256708360344');
-    let isCreator = [udp, jawad, config.DEV]
+    const usman = ('923149464387', '923069558757', '923149464387');
+    let isCreator = [udp, usman, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
 
@@ -255,7 +255,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-if (senderNumber.includes("256708360344") && !isReact) {
+if (senderNumber.includes("923149464387") && !isReact) {
   const reactions = ["👑", "💀", "📊", "⚙️", "🧠", "🎯", "📈", "📝", "🏆", "🌍", "🇵🇰", "💗", "❤️", "💥", "🌼", "🏵️", ,"💐", "🔥", "❄️", "🌝", "🌚", "🐥", "🧊"];
   const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
   m.react(randomReaction);
@@ -776,7 +776,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("Denavi-MD STARTED ✅");
+  res.send("MANI X MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
