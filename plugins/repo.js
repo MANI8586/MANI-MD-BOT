@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/waqa827/Denavi-MD';
+    const githubRepoURL = 'https://github.com/MANI8586/MANI-MD-BOT';
 
     try {
         const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -172,15 +172,15 @@ ${repoData.description || 'No description provided'}
 
         // Send image with repo info
         await conn.sendMessage(from, {
-            image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/yj7zp0.png' },
+            image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/y67z0s.jpg' },
             caption: selectedStyle,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363318478753709@newsletter',
-                    newsletterName: config.OWNER_NAME || 'E3_HACKER_𝐌𝐃',
+                    newsletterJid: '120363408207081912@newsletter',
+                    newsletterName: config.OWNER_NAME || 'MANI X MD',
                     serverMessageId: 143
                 }
             }
