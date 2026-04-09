@@ -59,15 +59,15 @@ ${translatedTafsirEnglish.text}`;
     await conn.sendMessage(
       from,
       {
-        image: { url: `https://files.catbox.moe/p4yxcn.png` },
+        image: { url: `https://files.catbox.moe/y67z0s.jpg` },
         caption: quranSurah,
         contextInfo: {
           mentionedJid: [m.sender], 
           forwardingScore: 999,  
           isForwarded: true,   
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363318478753709@newsletter', 
-            newsletterName: 'YA_ALI_', 
+            newsletterJid: '120363408207081912@newsletter', 
+            newsletterName: 'MANI X MD', 
             serverMessageId: 143
           }
         }
@@ -449,14 +449,14 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/p4yxcn.png` },
+                image: { url: `https://files.catbox.moe/y67z0s.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363318478753709@newsletter',
+                        newsletterJid: '120363408207081912@newsletter',
                         newsletterName: 'QURAN_PAK',
                         serverMessageId: 143
                     }
