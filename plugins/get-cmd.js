@@ -39,7 +39,7 @@ ${truncatedCode}
 \`\`\`
 ╰──────────⊷  
 ⚡ Full file sent below 📂  
-*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ χ нαѕι* 💜`;
+*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ MANI X MD* 💜`;
 
         // Send image with truncated source code
         await conn.sendMessage(from, { 
@@ -50,8 +50,8 @@ ${truncatedCode}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363318478753709@newsletter',
-                    newsletterName: 'E3_HACKER-MD',
+                    newsletterJid: '120363408207081912@newsletter',
+                    newsletterName: 'MANI X MD',
                     serverMessageId: 143
                 }
             }
