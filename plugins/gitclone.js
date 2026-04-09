@@ -55,8 +55,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363318478753709@newsletter',
-          newsletterName: 'E3_HACKER-MD Official',
+          newsletterJid: '120363408207081912@newsletter',
+          newsletterName: 'MANI X MD Official',
           serverMessageId: 143
         }
       }
