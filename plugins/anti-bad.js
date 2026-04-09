@@ -14,7 +14,7 @@ cmd({
   sender
 }) => {
   try {
-    const badWords = ["wtf", "mia", "xxx", "fuck", 'sex' , 'phudi' , 'gushti' ,  'lun' , , "huththa", "pakaya", 'ponnaya', "hutto"];
+    const badWords = ["wtf", "mia", "xxx", "fuck", 'sex' , 'phudi' , 'gushti' ,  'lun' , 'gandu' ,'bkc', 'Bkc' ,"mkc","Mkc", , "huththa", "pakaya", 'ponnaya', "hutto"];
 
     if (!isGroup || isAdmins || !isBotAdmins) {
       return;
@@ -25,7 +25,7 @@ cmd({
 
     if (containsBadWord && config.ANTI_BAD_WORD === "true") {
       await conn.sendMessage(from, { 'delete': m.key }, { 'quoted': m });
-      await conn.sendMessage(from, { 'text': "🚫 ⚠️ BAD WORDS NOT ALLOWED ⚠️ 🚫" }, { 'quoted': m });
+      await conn.sendMessage(from, { 'text': "🚫 ⚠️ BAD WORDS DETECTED ITS NOT ALLOWED ⚠️ 🚫" }, { 'quoted': m });
     }
   } catch (error) {
     console.error(error);
