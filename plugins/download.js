@@ -254,7 +254,7 @@ cmd({
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-🔗 **© ᴘᴏᴡᴇʀᴇᴅ ʙʏ E3_HACKER_MD ❣️*`;
+🔗 **© ᴘᴏᴡᴇʀᴇᴅ ʙʏ MANI X MD 💝*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
