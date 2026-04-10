@@ -1,3 +1,3 @@
 git clone --depth 1 --filter=blob:none --sparse https://github.com/MANI8586/MANI-MD-BOT.git
-cd MANI-X-MD
+cd MANI-MD-BOT
 git sparse-checkout set "root"
