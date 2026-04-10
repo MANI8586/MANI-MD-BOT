@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: MANI X
+    name: MANI-MD-BOT
     env: node
     plan: free
     repo: https://github.com/MANI8586/MANI-MD-BOT
