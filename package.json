@@ -1,12 +1,12 @@
 {
-  "name": "MANI X MD",
+  "name": "MANI-MD-BOT",
   "version": "4.5.0",
   "description": "A WhatsApp Bot Created By MANI X MD Official",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name MANI X MD",
-    "stop": "pm2 stop Denavi-MD",
-    "restart": "pm2 restart MANI X MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name MANI-MD-BOT",
+    "stop": "pm2 stop MANI-MD-BOT",
+    "restart": "pm2 restart MANI-MD-BOT"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:baileys-pro@latest",
