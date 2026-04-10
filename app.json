@@ -1,8 +1,8 @@
 {
-  "name": "MANI X MD",
+  "name": "MANI-MD-BOT",
   "description": "Javascript WhatsApp bot made by MANI X",
   "logo": "https://files.catbox.moe/y67z0s.jpg",
-  "keywords": ["MANI X MD"],
+  "keywords": ["MANI-MD-BOT"],
   "success_url": "/",
 
     "stack": "container",
